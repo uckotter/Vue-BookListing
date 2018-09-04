@@ -10,7 +10,7 @@ export default {
 </script>
 
 <style>
-    i {
+    li {
         display: block;
         margin: 0 10px;
     }
