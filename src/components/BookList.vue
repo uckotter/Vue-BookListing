@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>{{ title }}</h1>
+        <h2>A cool Vue app</h2>
         <ul>
             <book-item v-for="book in books" :book='book'></book-item>
         </ul>
@@ -21,7 +22,7 @@ export default {
     },
     data() {
         return {
-            title: 'All Books',
+            title: 'All the Worlds Books',
             books: [
                 {title: 'Self Balance', author: 'Ralph Waldo Emerson'},
                 {title: 'American Gods', author: 'Neil Gaiman'},
